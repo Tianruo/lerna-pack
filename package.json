@@ -1,6 +1,6 @@
 {
     "name": "lerna-demo",
-    "version": "1.0.0",
+    "version": "1.0.7",
     "description": "",
     "private": true,
     "main": "index.js",
@@ -9,7 +9,8 @@
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "lerna run --stream build"
+        "build": "lerna run --stream build",
+        "version": "lerna version"
     },
     "author": "",
     "license": "ISC",
