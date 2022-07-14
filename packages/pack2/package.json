@@ -1,0 +1,41 @@
+{
+  "name": "pack2",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "likai07",
+  "homepage": "https://github.com/Tianruo/lerna-pack#readme",
+  "license": "ISC",
+  "main": "lib/pack2.js",
+  "module": "lib/pack2.es.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tianruo/lerna-pack.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rm -rf ./lib && tsc --module commonjs && rollup -c"
+  },
+  "bugs": {
+    "url": "https://github.com/Tianruo/lerna-pack/issues"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup": "^2.76.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "rollup-plugin-uglify-es": "^0.0.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "immutable": "^3.0.0"
+  }
+}
