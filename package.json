@@ -7,6 +7,9 @@
     "workspaces": [
         "packages/*"
     ],
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "lerna run --stream build",
