@@ -19,6 +19,9 @@
     "type": "git",
     "url": "git+https://github.com/Tianruo/lerna-pack.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "dev": "rm -rf ./lib && cross-env NODE_ENV=development tsc --module commonjs && rollup -c",
