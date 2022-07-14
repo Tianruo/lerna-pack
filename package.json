@@ -11,7 +11,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "lerna run --stream build",
         "version": "lerna version --exact --force-publish=* --no-commit-hooks --no-push",
-        "release": "lerna publish --yes from-package"
+        "release": "yarn lerna publish --yes from-package"
     },
     "author": "",
     "license": "ISC",
